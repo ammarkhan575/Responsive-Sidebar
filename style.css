@@ -99,6 +99,14 @@ body{
     grid-template-rows: 1fr;
 }
 
+.dropdown-btn svg{
+    transition: 200ms ease
+}
+
+.rotate svg:last-child{
+    rotate: -180deg;
+}
+
 .dropdown-btn {
     width: 100%;
     text-align: left;
