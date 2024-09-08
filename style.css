@@ -87,7 +87,16 @@ body{
 }
 
 #sidebar .sub-menu{
-    display: none;
+    display: grid;
+    transition: 300ms ease-in-out;
+    grid-template-rows: 0fr;
+    > div{
+        overflow: hidden;
+    }
+}
+
+#sidebar .sub-menu.show{
+    grid-template-rows: 1fr;
 }
 
 .dropdown-btn {
